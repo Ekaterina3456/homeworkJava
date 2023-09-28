@@ -98,7 +98,7 @@ public class phonebook3 {
         }
     }
 
-    private static void DelContact(){
+    public static void DelContact(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите имя контакта который хотите удалить");
         String name = sc.nextLine();
