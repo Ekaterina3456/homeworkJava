@@ -73,7 +73,7 @@ public class phonebook3 {
                 flag = true;
             }
         }
-        if (flag == true) {
+        if (flag) {
             Scanner scs = new Scanner(System.in);
             System.out.println("Выбирите:\n\t1.изменить имя\n\t2.изменить номер");
             int punct = sc.nextInt();
@@ -93,7 +93,7 @@ public class phonebook3 {
                 }
             }
         }
-        if (flag == false) {
+        if (!flag) {
             System.out.println("Контакт с таким именем не найден");
         }
     }
